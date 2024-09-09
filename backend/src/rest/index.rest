@@ -1,0 +1,15 @@
+POST http://127.0.0.1:3000/api/posts/add
+Content-Type: application/json
+
+{
+    "titulo": "post1",
+    "img": "123",
+    "descripcion": "123",
+    "likes": 123
+}
+
+###
+GET  http://127.0.0.1:3000/api/posts/get-all
+Content-Type: application/json
+
+
